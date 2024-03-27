@@ -65,7 +65,7 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
           </Typography>
         </Box>
       </FlexBetween>
-      <IconButton
+      {_id != friendId && <IconButton       /* so that logged in user does not add himself as friend */
           onClick={() => patchFriend()}
           sx= {{ backgroundColor: primaryLight, p: "0.6rem"}}
         >
@@ -75,7 +75,7 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
                 <PersonAddOutlined sx={{ color: primaryDark }} />
             )}
 
-      </IconButton>
+      </IconButton>}
     </FlexBetween>
   );
 };
