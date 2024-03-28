@@ -8,7 +8,7 @@ const UserImage = ({ image, size="60px"}) => {
                 width={size}
                 height={size}
                 alt="user"
-                src={`http://social-media-app-psi-lilac.vercel.app/assets/${image}`}
+                src={`http://social-media-app-server-xi.vercel.app/assets/${image}`}
             />
         </Box>
     );
