@@ -3,7 +3,7 @@
 ![App Screenshot](https://github.com/Gaurav-Krc/social-media-app/blob/master/sociopedia-image.png)
 
 
-Welcome to Sociopedia 🦉
+Welcome to [Sociopedia](https://social-media-app-client-green.vercel.app) 🦉
 
 
 
